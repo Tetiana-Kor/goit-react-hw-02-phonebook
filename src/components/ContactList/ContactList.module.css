@@ -1,0 +1,32 @@
+.list {
+  padding: 0;
+  padding: 10px 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.button {
+  margin-left: 20px;
+  cursor: pointer;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  transition: transform 0.25s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.button:hover {
+  background-color: salmon;
+  transform: scale(1.05);
+  border: none;
+  outline: none;
+}
