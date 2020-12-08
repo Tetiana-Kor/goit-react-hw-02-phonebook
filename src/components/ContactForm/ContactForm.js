@@ -49,7 +49,7 @@ export default class ContactForm extends Component {
             value={number}
             placeholder="000-00-00"
             onChange={this.handleChange}
-            // pattern="[0-7]{3}-[0-7]{2}-[0-7]{2}"
+            pattern="[0-7]{3}-[0-7]{2}-[0-7]{2}"
             // required
           />
         </label>
